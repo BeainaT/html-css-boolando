@@ -53,3 +53,20 @@ img {
     color: #fff;
     font-weight: bold;
 }
+.info {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.price {
+    color: #ff0000;
+    font-weight: bold;
+}
+.ex-price {
+    text-decoration: line-through;
+    
+}
+.brand {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
