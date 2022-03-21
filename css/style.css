@@ -82,7 +82,7 @@ img {
     display: none;
     position: absolute;
     top: 0;
-    left: 0;
+    left:0;
 }
 .model:hover img.switch {
     display: block;
