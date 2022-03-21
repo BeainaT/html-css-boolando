@@ -18,6 +18,38 @@
     float: left;
     width: calc(100% / 3 - 8px);
     margin: 0 4px;
-    height: 400px;
-    background-color: blue;
+}
+.model {
+    width: 100%;
+    position: relative;
+}
+img {
+    width: 100%;
+    display: block;
+}
+/*box img content*/
+.model .heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.discount {
+    background-color: #eb0037;
+    left: 0;
+}
+.plus {
+    background-color: #00875a;
+    left: 50px;
+    text-transform: capitalize;
+}
+
+.discount, .plus {
+    position: absolute;
+    bottom: 20px;
+    padding: 4px;
+    color: #fff;
+    font-weight: bold;
 }
