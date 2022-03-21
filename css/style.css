@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /*page container*/
 .container {
     max-width: 1280px;
     margin: auto;
+    padding: 20px;
 }
 /*fix float*/
 .clearfix:after {
@@ -16,8 +20,8 @@
 }
 .coloumn {
     float: left;
-    width: calc(100% / 3 - 8px);
-    margin: 0 4px;
+    width: calc(100% / 3 - 16px);
+    margin: 0 8px;
 }
 .model {
     width: 100%;
