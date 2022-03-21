@@ -53,11 +53,23 @@ img {
     color: #fff;
     font-weight: bold;
 }
+#only-plus {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+/*content text sub img*/
+.sub-text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.brand {
+    text-transform: capitalize;
+}
 .info {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .price {
     color: #ff0000;
     font-weight: bold;
@@ -65,11 +77,4 @@ img {
 .ex-price {
     text-decoration: line-through;
     
-}
-.sub-text {
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-.brand {
-    text-transform: capitalize;
 }
