@@ -76,5 +76,14 @@ img {
 }
 .ex-price {
     text-decoration: line-through;
-    
+}
+/*hover to alternative structure*/
+.switch {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.model:hover img.switch {
+    display: block;
 }
