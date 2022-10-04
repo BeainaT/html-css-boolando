@@ -83,11 +83,16 @@ img {
 }
 /*hover to alternative structure*/
 .switch {
-    display: none;
+    opacity: 0;
     position: absolute;
     top: 0;
     left:0;
 }
 .model:hover img.switch {
-    display: block;
+    transition: 0.5s;
+    opacity: 1;
+}
+.heart:hover {
+    cursor: pointer;
+    color: #ff0000;
 }
